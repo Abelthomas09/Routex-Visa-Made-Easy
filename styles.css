@@ -1,0 +1,354 @@
+body,html {
+    overflow-x: hidden;
+}
+body {
+    background-color: #f7f8f9;
+    font-family: Arial, sans-serif;
+}
+.hero-section {
+    background-color: #004d40;
+    margin: 10px 50px 0px 50px;
+    border-radius: 20px;
+    /* Dark Green */
+    color: white;
+    padding: 150px 0;
+    text-align: left;
+    height: 665px;
+}
+#cover{
+    margin-left: 150px;
+}
+.hero-section h1 {
+    font-weight: bold;
+}
+.hero-section .btn-primary {
+    background-color: #00C853;
+    /* Light Green */
+    border-color: #00C853;
+}
+
+.service-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.service-card .icon {
+    font-size: 50px;
+    color: #00C853;
+    margin-bottom: 15px;
+}
+
+.appointment-btn {
+    background-color: #C6FF00;
+    /* Lime Green */
+    color: black;
+    border-radius: 25px;
+}
+.experience {
+    background-color: #7fd08c; /* Green background for the experience section */
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+.readmore{
+    margin-left: 250px;
+}
+#need{
+    margin-left: -45px;
+}
+.main-title {
+    color: #333;
+    font-weight: bold;
+}
+.highlight {
+    color: #23875b; /* Green color for highlighted text */
+}
+.green{
+    color: #23875b;
+    font-weight: bolder;
+}
+.feature-card {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.feature-icon {
+    font-size: 40px;
+    color: #23875b; /* Green color for icons */
+}
+.partners {
+    margin-top: 40px;
+}
+.section-title {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.visaCat{
+    margin-top: 80px;
+}
+.contries{
+    margin-top: 80px;
+}
+.offer{
+    margin-top: 80px;
+}
+.testimonies{
+    margin-top: 80px;
+}
+.footer{
+    margin-top: 80px;
+}
+.category-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+.category-card:hover {
+    transform: translateY(-5px);
+}
+.category-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.category-title {
+    color: #23875b;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.read-more {
+    color: #23875b;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.read-more i {
+    margin-left: 5px;
+}
+.section-title {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.country-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+.country-card:hover {
+    transform: translateY(-5px);
+}
+.country-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.country-icon img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.country-title {
+    color: #23875b;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.checklist {
+    color: #333;
+    margin-top: 10px;
+    text-align: left;
+    list-style: none;
+    padding: 0;
+}
+.checklist li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.checklist li::before {
+    content: '\2713';
+    color: #23875b;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.view-more-btn {
+    background-color: #58b368;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 30px;
+    transition: background-color 0.3s;
+}
+.view-more-btn:hover {
+    background-color: #23875b;
+    color: white;
+    text-decoration: none;
+}
+
+.stats-box {
+    background-color: #a7e28d;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.testimonial-box {
+    background-color: #a7e28d;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+}
+.testimonial-text {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.author-info {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.author-info img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.nav-buttons {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.nav-buttons button {
+    background-color: #fff;
+    border: none;
+    color: #333;
+    font-size: 1.2rem;
+    margin-left: 5px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.nav-buttons button:hover {
+    background-color: #23875b;
+    color: white;
+    text-decoration: none;
+}
+
+
+.footer {
+    background-color: #004d33;
+    background-image: url('https://i.imgur.com/7XF5ZVz.png'); /* World map background */
+    background-size: cover;
+    padding: 40px 0;
+    color: #ffffff;
+}
+
+.footer-title {
+    color: #8ddf5b;
+    font-size: 1.25rem;
+}
+
+.footer-logo {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.footer-subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.footer-list {
+    list-style-type: none;
+    padding: 0;
+    line-height: 2;
+}
+
+.footer-list li {
+    font-size: 0.9rem;
+}
+
+.footer-form input {
+    border-radius: 20px;
+    padding: 8px;
+    width: 100%;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #8ddf5b;
+    margin-right: 15px;
+    font-size: 1.5rem;
+}
+.social-icons a:hover{
+    color: black;
+}
+.form-control{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.footer-bottom-list {
+    list-style-type: none;
+    display: inline-flex;
+    gap: 15px;
+    margin-right: 40px;
+}
+
+.footer-bottom-list a {
+    color: #8ddf5b;
+    text-decoration: none;
+}
+
+.footer-bottom-list a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width:760px){
+    #cover{
+        display: none;
+    }
+}
+
+
+
+
+
